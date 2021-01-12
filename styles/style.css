@@ -7,4 +7,22 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:linear-gradient(#1c5380, #fff);
+  background-repeat:repeat-x;
 }
+
+
+main{
+  display:flex;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+}
+
+section{
+
+}
+/* #blue{
+  height: 33vh;
+} */
