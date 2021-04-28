@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtiles.png');
   background-image:linear-gradient(#1c5380, #fff);
   background-repeat:repeat-x;
 }
@@ -14,6 +15,7 @@ body {
 
 main{
   display:flex;
+  /*border: 10px solid green;*/ 
   padding: 0px 50px;
   justify-content: center;
   align-items:center;
@@ -23,6 +25,9 @@ main{
 section{
 
 }
-/* #blue{
+
+
+#blue{
+  background: #06365f;
   height: 33vh;
-} */
+} 
