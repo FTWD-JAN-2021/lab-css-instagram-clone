@@ -22,11 +22,28 @@ main{
   height: 100vh;
 }
 
-section{
+section:nth-child(2){
+  border: 1px solid red;
+  margin-left: 20px;
+
 
 }
 
 
+h1 {
+  color: #06365f
+
+}
+
+.content{
+  
+  
+  padding: 20px;
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
 #blue{
   background: #06365f;
   height: 33vh;
